@@ -2,6 +2,9 @@
 name = "cargo-ulint"
 version = "0.1.0"
 license = "Apache-2.0 OR MIT"
+description = "Cross-crate unused lint checker tool"
 authors = ["est31 <MTest31@outlook.com>"]
 
 [dependencies]
+structopt = "0.1.0"
+structopt-derive = "0.1.0"
